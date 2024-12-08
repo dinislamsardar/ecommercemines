@@ -344,7 +344,917 @@
     <!-- Font Awesome Icons for Social Media -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
-   
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://via.placeholder.com/100x40" alt="Logo" width="100" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Catagory">Category</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="#Watch">Watch</a></li>
+                            <li><a class="dropdown-item" href="#Bag">Bag</a></li>
+                            <li><a class="dropdown-item" href="#Shoes">Shoes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <header>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://via.placeholder.com/3000x1000" class="d-block w-100" alt="Slide 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/3000x1000" class="d-block w-100" alt="Slide 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://via.placeholder.com/3000x1000" class="d-block w-100" alt="Slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section id="Catagory" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-4">
+                                <img src="https://via.placeholder.com/100" class="img-fluid rounded-start" alt="Watch Category">
+                            </div>
+                            <div class="col-8 d-flex align-items-center justify-content-center">
+                                <h5 class="card-title text-center">Watch</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add remaining cards similarly -->
+                <a href="category.html" class="btn btn-outline-primary mt-3">See More Categories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add Product Sections for Watch, Bag, and Shoes as before -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p>123 Street, City</p>
+                </div>
+            </div>
+            <p class="text-center mt-3">&copy; 2024 Your Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top" role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="https://via.placeholder.com/100x40" alt="Your Company Logo" width="100" height="40">
+        </a>
+
+        <!-- Toggler Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Catagory">Category</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li><a class="dropdown-item" href="#Watch">Watch</a></li>
+                        <li><a class="dropdown-item" href="#Bag">Bag</a></li>
+                        <li><a class="dropdown-item" href="#Shoes">Shoes</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<img src="https://via.placeholder.com/100x40" alt="Logo" width="100" height="40">
+<img src="https://via.placeholder.com/100x40" alt="Your Company Logo" width="100" height="40" loading="lazy" />
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+.card {
+    flex: 1 1 calc(33.333% - 16px); /* Three cards per row, with gap */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 16px); /* Two cards per row on smaller screens */
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* One card per row on mobile */
+    }
+}
+<div class="cards-container">
+    <div class="card">
+        <img src="..." alt="..." />
+        <h5>Product 1</h5>
+        <p>Price: $50</p>
+    </div>
+    <div class="card">
+        <img src="..." alt="..." />
+        <h5>Product 2</h5>
+        <p>Price: $75</p>
+    </div>
+</div>
+<!-- Add to your existing JavaScript file or a new script block -->
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<!-- Trigger Button -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal">
+    View Details
+</button>
+
+<!-- Modal Structure -->
+<div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="https://via.placeholder.com/400x300" alt="Product Image" class="img-fluid mb-3">
+                <p>Product Name: Stylish Watch</p>
+                <p>Description: Elegant and timeless design for every occasion.</p>
+                <p>Price: $100</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>Providing the best products for your needs, ensuring quality and satisfaction.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#Catagory" class="text-white text-decoration-none">Categories</a></li>
+                    <li><a href="#Watch" class="text-white text-decoration-none">Watches</a></li>
+                    <li><a href="#Bag" class="text-white text-decoration-none">Bags</a></li>
+                    <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p><i class="bi bi-envelope"></i> info@yourwebsite.com</p>
+                <p><i class="bi bi-telephone"></i> +123-456-7890</p>
+                <p><i class="bi bi-geo-alt"></i> 123 Main Street, Anytown, USA</p>
+            </div>
+        </div>
+        <hr>
+        <p class="text-center mb-0">© 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the finest collection of watches, bags, and shoes at unbeatable prices. Quality guaranteed.">
+    <meta name="keywords" content="watches, bags, shoes, online store, quality products">
+    <meta name="author" content="Your Company">
+    <title>Your Website Title</title>
+</head>
+<button id="backToTop" class="btn btn-primary" title="Go to top">
+    ↑
+</button>
+<button id="backToTop" class="btn btn-primary" title="Go to top">
+    ↑
+</button>
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 99;
+}
+const backToTopButton = document.getElementById('backToTop');
+
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = "block";
+    } else {
+        backToTopButton.style.display = "none";
+    }
+};
+
+backToTopButton.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Featured Product 1</h5>
+                <p>Discover the elegance of our premium collection.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Featured Product 2</h5>
+                <p>Quality and style, redefined.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://via.placeholder.com/1200x500" class="d-block w-100" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Exclusive Offer</h5>
+                <p>Enjoy discounts up to 50% off!</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container my-5">
+    <h2 class="text-center">Our Products</h2>
+    <div class="d-flex justify-content-center mb-4">
+        <button class="btn btn-outline-primary mx-2 filter-btn" data-filter="all">All</button>
+        <button class="btn btn-outline-primary mx-2 filter-btn" data-filter="watches">Watches</button>
+        <button class="btn btn-outline-primary mx-2 filter-btn" data-filter="bags">Bags</button>
+        <button class="btn btn-outline-primary mx-2 filter-btn" data-filter="shoes">Shoes</button>
+    </div>
+    <div class="row">
+        <div class="col-md-4 product-item watches">
+            <img src="https://via.placeholder.com/300x300" class="img-fluid" alt="Watch">
+            <h5>Classic Watch</h5>
+        </div>
+        <div class="col-md-4 product-item bags">
+            <img src="https://via.placeholder.com/300x300" class="img-fluid" alt="Bag">
+            <h5>Leather Bag</h5>
+        </div>
+        <div class="col-md-4 product-item shoes">
+            <img src="https://via.placeholder.com/300x300" class="img-fluid" alt="Shoes">
+            <h5>Running Shoes</h5>
+        </div>
+    </div>
+</div>
+const filterButtons = document.querySelectorAll('.filter-btn');
+const productItems = document.querySelectorAll('.product-item');
+
+filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        productItems.forEach(item => {
+            if (filter === 'all' || item.classList.contains(filter)) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+    });
+});
+<a href="#mainContent" class="skip-link">Skip to Main Content</a>
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+<nav aria-label="Main Navigation">
+    <ul>
+        <li><a href="#Catagory">Categories</a></li>
+        <li><a href="#Watch">Watches</a></li>
+        <li><a href="#Bag">Bags</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<img src="placeholder.jpg" data-src="actual-image.jpg" class="lazyload" alt="Product Image">
+document.addEventListener('DOMContentLoaded', function () {
+    const lazyImages = document.querySelectorAll('img.lazyload');
+
+    lazyImages.forEach(img => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    img.src = img.dataset.src;
+                    img.classList.remove('lazyload');
+                    observer.unobserve(img);
+                }
+            });
+        });
+
+        observer.observe(img);
+    });
+});
+<!-- Add in the <head> section -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXX');
+</script>
+<section id="testimonials" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial-card p-3">
+                    <p class="testimonial-text">"This store has the best watches! The quality is top-notch."</p>
+                    <h5 class="testimonial-author">- John Doe</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card p-3">
+                    <p class="testimonial-text">"I love their collection of bags. Stylish and affordable."</p>
+                    <h5 class="testimonial-author">- Jane Smith</h5>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card p-3">
+                    <p class="testimonial-text">"Fast delivery and excellent customer service. Highly recommend!"</p>
+                    <h5 class="testimonial-author">- Sarah Lee</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+#testimonials {
+    background-color: #f9f9f9;
+}
+
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+}
+<section id="blog" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Latest Articles</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Blog Post 1">
+                    <h5 class="mt-3">How to Choose the Perfect Watch</h5>
+                    <p class="text-muted">Learn the factors to consider when selecting a timepiece.</p>
+                    <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Blog Post 2">
+                    <h5 class="mt-3">Top 10 Trending Bags of 2024</h5>
+                    <p class="text-muted">Discover this year’s most popular bag styles.</p>
+                    <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-post">
+                    <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="Blog Post 3">
+                    <h5 class="mt-3">Why Comfortable Shoes Matter</h5>
+                    <p class="text-muted">Find out how the right footwear can improve your day.</p>
+                    <a href="#" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+#blog .blog-post {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#blog .blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#blog img {
+    border-radius: 8px;
+}
+<section id="newsletter" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+        <h2 class="mb-3">Subscribe to Our Newsletter</h2>
+        <p class="mb-4">Stay updated with the latest offers and products.</p>
+        <form class="form-inline justify-content-center">
+            <input type="email" class="form-control me-2" placeholder="Enter your email" required>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </div>
+</section>
+#newsletter {
+    background-color: #333;
+}
+
+#newsletter .form-control {
+    max-width: 300px;
+    width: 100%;
+}
+
+#newsletter .btn {
+    padding: 10px 20px;
+}
+<footer class="py-4 bg-dark text-white">
+    <div class="container text-center">
+        <p>Follow Us:</p>
+        <div class="social-icons">
+            <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+        <p class="mt-3">© 2024 Your Brand. All rights reserved.</p>
+    </div>
+</footer>
+footer .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #007bff;
+}
+<section id="faq" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                        What is your return policy?
+                    </button>
+                </h2>
+                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        We accept returns within 30 days of purchase. Items must be in original condition.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                        Do you offer international shipping?
+                    </button>
+                </h2>
+                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Yes, we ship worldwide. Shipping fees vary by location.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="product-filter" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Filter Products</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="filter-category">
+                    <h5>Category</h5>
+                    <ul class="list-unstyled">
+                        <li><input type="checkbox" id="watches" name="category" value="Watches"> Watches</li>
+                        <li><input type="checkbox" id="bags" name="category" value="Bags"> Bags</li>
+                        <li><input type="checkbox" id="shoes" name="category" value="Shoes"> Shoes</li>
+                    </ul>
+                </div>
+                <div class="filter-price mt-4">
+                    <h5>Price Range</h5>
+                    <input type="range" class="form-range" min="0" max="500" step="10" id="priceRange">
+                    <p id="priceLabel">Up to $500</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row" id="filteredProducts">
+                    <!-- Products will populate here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+.filter-category ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.filter-category li {
+    margin-bottom: 10px;
+}
+
+.filter-price p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+document.getElementById('priceRange').addEventListener('input', function() {
+    const maxPrice = this.value;
+    document.getElementById('priceLabel').textContent = `Up to $${maxPrice}`;
+    filterProducts();
+});
+
+const filters = document.querySelectorAll('input[name="category"]');
+filters.forEach(filter => {
+    filter.addEventListener('change', filterProducts);
+});
+
+function filterProducts() {
+    const selectedCategories = Array.from(filters)
+        .filter(filter => filter.checked)
+        .map(filter => filter.value);
+    const maxPrice = document.getElementById('priceRange').value;
+
+    const allProducts = document.querySelectorAll('.product-card'); // Add class to your product cards
+    allProducts.forEach(product => {
+        const productCategory = product.getAttribute('data-category');
+        const productPrice = parseInt(product.getAttribute('data-price'), 10);
+
+        if (
+            (selectedCategories.length === 0 || selectedCategories.includes(productCategory)) &&
+            productPrice <= maxPrice
+        ) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+window.addEventListener('scroll', () => {
+    const animatedElements = document.querySelectorAll('.animated');
+    animatedElements.forEach(element => {
+        const position = element.getBoundingClientRect();
+        if (position.top < window.innerHeight) {
+            element.classList.add('visible');
+        }
+    });
+});
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form id="contactForm">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+
+    if (!name || !email || !message) {
+        alert('Please fill in all fields.');
+        return;
+    }
+
+    if (!validateEmail(email)) {
+        alert('Please enter a valid email address.');
+        return;
+    }
+
+    alert('Thank you for your message!');
+    this.reset();
+});
+
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+}
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+body.dark-mode {
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+document.getElementById('themeButton').addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+});
+<section id="product-carousel" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="product1.jpg" class="d-block w-100" alt="Product 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Product 1</h5>
+                        <p>High-quality product for your needs.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="product2.jpg" class="d-block w-100" alt="Product 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Product 2</h5>
+                        <p>Explore the best in class products.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="product3.jpg" class="d-block w-100" alt="Product 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Product 3</h5>
+                        <p>Quality meets elegance in every product.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+.carousel-inner img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
+}
+<!-- Quick View Modal -->
+<div class="modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="quickViewLabel">Product Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="product1.jpg" class="img-fluid mb-3" alt="Product Image">
+                <h6>Product 1</h6>
+                <p>High-quality product that fits all your needs. Durable, stylish, and versatile.</p>
+                <p><strong>Price:</strong> $100</p>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+const quickViewButtons = document.querySelectorAll('.quick-view-button');
+quickViewButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        const productId = button.getAttribute('data-product-id');
+        loadProductDetails(productId);
+    });
+});
+
+function loadProductDetails(productId) {
+    // Here you would dynamically load the product details (e.g., using AJAX or fetching from a database)
+    document.querySelector('#quickViewLabel').textContent = `Product ${productId}`;
+    document.querySelector('.modal-body img').src = `product${productId}.jpg`;
+    document.querySelector('.modal-body h6').textContent = `Product ${productId}`;
+    document.querySelector('.modal-body p').textContent = `Detailed description of product ${productId}`;
+    document.querySelector('.modal-body strong').textContent = `Price: $${productId * 10}`;
+    new bootstrap.Modal(document.getElementById('quickViewModal')).show();
+}
+<button class="btn btn-outline-primary quick-view-button" data-product-id="1">Quick View</button>
+<section id="search" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Search Products</h2>
+        <input type="text" id="searchInput" class="form-control" placeholder="Search for products..." oninput="searchProducts()">
+        <div id="searchResults" class="mt-4"></div>
+    </div>
+</section>
+function searchProducts() {
+    const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    const products = document.querySelectorAll('.product-card');
+    let results = [];
+
+    products.forEach(product => {
+        const productName = product.querySelector('.product-name').textContent.toLowerCase();
+        if (productName.includes(searchInput)) {
+            results.push(product);
+        }
+    });
+
+    displaySearchResults(results);
+}
+
+function displaySearchResults(results) {
+    const searchResultsDiv = document.getElementById('searchResults');
+    searchResultsDiv.innerHTML = '';
+
+    if (results.length > 0) {
+        results.forEach(product => {
+            const productHTML = product.outerHTML;
+            searchResultsDiv.innerHTML += productHTML;
+        });
+    } else {
+        searchResultsDiv.innerHTML = '<p>No products found.</p>';
+    }
+}
+<section id="cart" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Your Cart</h2>
+        <div id="cartItems"></div>
+        <div class="text-end">
+            <button class="btn btn-success">Checkout</button>
+        </div>
+    </div>
+</section>
+let cart = [];
+
+function addToCart(productId, productName, productPrice) {
+    const product = { id: productId, name: productName, price: productPrice };
+    cart.push(product);
+    updateCart();
+}
+
+function updateCart() {
+    const cartItemsDiv = document.getElementById('cartItems');
+    cartItemsDiv.innerHTML = '';
+    
+    cart.forEach(item => {
+        cartItemsDiv.innerHTML += `<p>${item.name} - $${item.price}</p>`;
+    });
+}
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Contact Info</h5>
+                <p>Email: support@example.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Facebook</a></li>
+                    <li><a href="#" class="text-light">Twitter</a></li>
+                    <li><a href="#" class="text-light">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Policies</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Privacy Policy</a></li>
+                    <li><a href="#" class="text-light">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
